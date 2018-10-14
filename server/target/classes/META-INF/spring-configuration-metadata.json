@@ -1,0 +1,18 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.srestaurant.configurations.ApplicationPropertiesConfiguration",
+      "name": "mes-configs",
+      "type": "com.srestaurant.configurations.ApplicationPropertiesConfiguration"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.srestaurant.configurations.ApplicationPropertiesConfiguration",
+      "defaultValue": 0,
+      "name": "mes-configs.limit-de-produits",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
