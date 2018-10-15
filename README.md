@@ -69,7 +69,7 @@ Pour executer le projet en local, vous telecharger le git [RestaurantCloud]() et
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/cole1.PNG)
  ### Apres avoir deposer le code valider
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clone2.PNG)
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clone3.PNG)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clon3.PNG)
  
 - importation du projet sur github en utilisant Github Desktop
 - Creation d'un projet openshift sous eclipse :
