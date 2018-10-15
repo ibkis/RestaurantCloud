@@ -52,17 +52,17 @@ ainsi le client peut etre lancer
 Pour executer le projet en local, vous telecharger le git [RestaurantCloud]() et vous importez le dossier Client et Server dans un IDE comme(Eclipse, Intellij,Netbeans,...) sachant qu'ils dispose tout le necessaire pour excecuter un projet Spring(Server web, maven, java EE).
 
  ### Accueil 
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo1.png)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo1.PNG)
 ### Accueil 
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo2.png)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo2.PNG)
  ### Accueil 
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo3.png)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo3.PNG)
  ### Accueil 
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo4.png)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo4.PNG)
  ### Accueil 
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo5.png)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo5.PNG)
  ### List ordonné( ordre decroissant des moyen) 
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo7.png)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo7.PNG)
 
 - importation du projet sur github en utilisant Github Desktop
 - Creation d'un projet openshift sous eclipse :
