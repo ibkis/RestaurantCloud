@@ -67,25 +67,22 @@ Pour executer le projet en local, vous telecharger le git [RestaurantCloud]() et
 # Importation sur github
  ### clonage du repertoire
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/cole1.PNG)
- ### Apres avoir deposer le code valider
+ ### Apres avoir deposer le code remplire( summary et description)  etvalider
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clone2.PNG)
+ ### publier les modification resultat
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clon3.PNG)
+
+# Deployement Sur Openshift
+[Projet Openshift](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet1.PNG)
+[Click sur retrieve](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+[Login](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet2.PNG)
+[Click sur retrieve](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet3.PNG)
+[Click sur Workspace OC Sttings](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+[Click sur Browws.. pour choisir l'executable openshift client telecharger ci-haut et apply and close](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet4.PNG)
+[Next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+[Choisir le projet et l'environement de deployement et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet7.PNG)
+[Url du git(repertoir du git) et nom du projet](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet8.PNG)
+[Configuration et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet9.PNG)
+[Configuration du port et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
+[Next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
  
-- importation du projet sur github en utilisant Github Desktop
-- Creation d'un projet openshift sous eclipse :
-- type de server : Openshift 3
-- server : https://console.starter-ca-central-1.openshift.com
-- creer un token en avec le compte openshift
-- clique sur advanced : choisir l'executable  openshift-origin-client-tool
-- clique sur next
-- creer un projet si aucun projet n'est crée au paravant
-- choisir l'enviroment de developpement, dans notre cas de jboss,tomcat
-- url du git repository et le reference s'il existe plusieur projet dans le meme repository
-- next
-- laisser les parametre pardefaut et next
-- utiliser un port et next
-
-
-
-
-
