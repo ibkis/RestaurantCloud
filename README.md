@@ -51,11 +51,43 @@ spring.datasource.sql-script-encoding=UTF-8
  ```
 
  <br> ou ajouter des restaurant static fichier : [server/src/main/resources/data.sql](https://github.com/karimouseyni/RestaurantCloud/blob/master/server/src/main/resources/data.sql)
+```
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG ) VALUES (0, 'Restaurant1', 'Spectialité poulet', 10.0, 10.0, 10.0, 10.0,'0.jpg');
+
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG) VALUES (1,  'Restaurant2', 'Spectialité patte', 10.0, 10.0, 10.0, 10.0,'1.jpg');
+
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG ) VALUES (2, 'Restaurant2', 'Spectialité Brochette', 10.0, 10.0, 10.0, 10.0,'2.jpg');
+
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG) VALUES (3, 'Restaurant3', 'Spectialité Parisien', 10.0, 10.0, 10.0, 10.0,'3.jpg');
+
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG ) VALUES (4, 'Restaurant4', 'Spectialité Chinois', 10.0, 10.0, 10.0, 10.0,'4.jpg');
+
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG ) VALUES (5, 'Restaurant5', 'Spectialité pizza', 10.0, 10.0, 10.0, 10.0,'5.jpg');
+
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE ,IMAG) VALUES (6, 'Restaurant6', 'Spectialité riz', 10.0, 10.0, 10.0, 10.0,'6.jpg');
+
+INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG ) VALUES (7 , 'Restaurant7', 'Spectialité mechou', 5.0, 10.0, 10.0, 10.0,'7.jpg');
+ ```
+
 ### Coté Client 
 Pour éviter des bugs, il est préférable de lancer le <b>Server</b> et de mettre l'adresse du server dans le ficher [RestaurantProxy.java](https://github.com/karimouseyni/RestaurantCloud/blob/master/client/src/main/java/com/clientui/proxies/RestaurantProxy.java),
+```java
+…
+@FeignClient(name = "microservice-restaurant", url = "localhost:9101")
+
+public interface RestaurantProxy {
+….
+ ```
+
 ,<br>
 Ainsi tout foie on peut changer le port d'exécution du Client e réalise dans le fichier :
  [client/ain/resources/application.properties](https://github.com/karimouseyni/RestaurantCloud/blob/master/client/src/main/resources/application.properties)
+```
+spring.application.name=restaurant-clientui
+server.port:9102
+
+ ```
+
 Ainsi le client peut être lancé 
 
 <U><b>NB :</b></U> le client et le server ne dois pas s'exécuter sur le même port
@@ -84,17 +116,29 @@ Pour exécuter le projet en local, vous télécharger le git [RestaurantCloud]()
  ### publier les modifications résultat
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clon3.PNG)
 
-# Déploiement Sur Open shift
-[Projet Openshift](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet1.PNG)
-[Click sur retrieve](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
-[Login](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet2.PNG)
-[Click sur retrieve](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet3.PNG)
-[Click sur Workspace OC Sttings](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
-[Click sur Brows.. pour choisir l'exécutable open shift client télécharger ci-haut et apply and close](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet4.PNG)
-[Next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
-[Choisir le projet et l'environnement de déploiement et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet7.PNG)
-[Url du git(répertoire du git) et nom du projet](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet8.PNG)
-[Configuration et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet9.PNG)
-[Configuration du port et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
-[Next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
 
+# Déploiement Sur Openshift
+### Projet Openshift
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet1.PNG)
+### Click sur retrieve
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+### Login
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet2.PNG)
+### Click sur retrieve
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet3.PNG)
+### Click sur Workspace OC Sttings
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+### Click sur Browws.. pour choisir l'exécutable openshift client télécharger ci-haut et apply and close
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet4.PNG)
+### Next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+### Choisir le projet et l'environnement de déploiement et next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet7.PNG)
+### Url du git(répertoire du git) et nom du projet
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet8.PNG)
+### Configuration et next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet9.PNG)
+### Configuration du port et next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
+### Next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
