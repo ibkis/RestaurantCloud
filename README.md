@@ -37,7 +37,7 @@ L'application client/Server a été réaliser sur le Framework Spring(projet mav
  En local : http://localhost:9101/addnote<br>
  
  Ainsi tout foie on peut changer le port d'exécution du server, cela se réalise dans le fichier : [server/src/main/resources/application.properties](https://github.com/karimouseyni/RestaurantCloud/blob/master/server/src/main/resources/application.properties)
-```xml
+```properties
 spring.application.name=microservice-restaurant
 
 server.port:9101
@@ -86,7 +86,7 @@ Ainsi tout foie on peut changer le port d'exécution du Client e réalise dans l
 spring.application.name=restaurant-clientui
 server.port:9102
 
- ```
+ ```properties
 
 Ainsi le client peut être lancé 
 
