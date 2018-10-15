@@ -82,11 +82,11 @@ public interface RestaurantProxy {
 ,<br>
 Ainsi tout foie on peut changer le port d'exécution du Client e réalise dans le fichier :
  [client/ain/resources/application.properties](https://github.com/karimouseyni/RestaurantCloud/blob/master/client/src/main/resources/application.properties)
-```
+```properties
 spring.application.name=restaurant-clientui
 server.port:9102
 
- ```properties
+ ```
 
 Ainsi le client peut être lancé 
 
