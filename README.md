@@ -51,7 +51,7 @@ spring.datasource.sql-script-encoding=UTF-8
  ```
 
  <br> ou ajouter des restaurant static fichier : [server/src/main/resources/data.sql](https://github.com/karimouseyni/RestaurantCloud/blob/master/server/src/main/resources/data.sql)
-```
+```sql
 INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG ) VALUES (0, 'Restaurant1', 'Spectialité poulet', 10.0, 10.0, 10.0, 10.0,'0.jpg');
 
 INSERT INTO RESTAURANT (ID, NOM,DESCRIPTION , MOYEN,QNOURITURE , QSALLE, QSERVICE,IMAG) VALUES (1,  'Restaurant2', 'Spectialité patte', 10.0, 10.0, 10.0, 10.0,'1.jpg');
