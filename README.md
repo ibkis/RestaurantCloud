@@ -12,7 +12,7 @@ les instructions qui suit on étè realiser sur windows
 
 * eclipse oxygene java EE- [Telecharger]( https://www.eclipse.org/downloads/packages/release/oxygen/3a)
 * openshift-origin-client-tools [Telecharger](https://github.com/openshift/origin/releases)
-
+* github desktop [telecharger]()
 ### Installation JBoss
 
  ### Eclipse Markplace
@@ -53,17 +53,24 @@ Pour executer le projet en local, vous telecharger le git [RestaurantCloud]() et
 
  ### Accueil 
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo1.PNG)
-### Accueil 
+### Liste des restaurants  
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo2.PNG)
- ### Accueil 
+ ### details d'un restaurant 
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo3.PNG)
- ### Accueil 
+ ### Noter Un restaurant 
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo4.PNG)
- ### Accueil 
+ ###  
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo5.PNG)
  ### List ordonné( ordre decroissant des moyen) 
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/demo7.PNG)
 
+# Importation sur github
+ ### clonage du repertoire
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/cole1.PNG)
+ ### Apres avoir deposer le code valider
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clone2.PNG)
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clon3.PNG)
+ 
 - importation du projet sur github en utilisant Github Desktop
 - Creation d'un projet openshift sous eclipse :
 - type de server : Openshift 3
