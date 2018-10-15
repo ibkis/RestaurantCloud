@@ -14,20 +14,32 @@ les instructions qui suit on étè realiser sur windows
 * openshift-origin-client-tools [Telecharger](https://github.com/openshift/origin/releases)
 
 ### Installation JBoss
-- Installer Jboss a travers Eclipse Marketplace wizard et rechercher jboss version 18
- 
+
  ### Eclipse Markplace
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/jboss1.png)
- ### Eclipse Markplace
+ ### Rechercher Jboss
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/jboss2.png)
- ### Eclipse Markplace
+ ### Selection les Plugin a installer(de preference tous)
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/jboss3.png)
- ### Eclipse Markplace
+ ### Confirmer
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/jboss4.png)
- ### Eclipse Markplace
- ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/jboss5.png)
+ ### 
+ ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/joss5.png)
  
-## Configurantions
+## Details sur le developpement
+L'application client/Server a été realiser sur le framework Spring, en utilisant l'architecture de micro-service classic<br>
+### le server offre 3 points d'entrer à savoir :
+- Obtenir la liste des restaurant(a comme parametre true:par ordre decroissant, false sans ordre) <br>
+  en local : http://localhost:9101/restaurants (methode GET)
+- Recuperation d'un restaurant en fonction de son identifiant <br> 
+  en local: http://localhost:9101/restaurants/1  (methode GET)
+- En fin ajouter une evaluation à un restaurant(methode POST)
+ en local: http://localhost:9101/addnote
+ 
+ Ainsi toute foie on peut changer le port d'execution sur Server, cela se realise dans le fichier :
+ [server/src/main/resources/application.properties](https://github.com/karimouseyni/RestaurantCloud/blob/master/server/src/main/resources/application.properties)
+ <br> ou ajouter des restaurant static fichier: [server/src/main/resources/data.sql](https://github.com/karimouseyni/RestaurantCloud/blob/master/server/src/main/resources/data.sql)
+### Coté CLient 
 
 - importation du projet sur github en utilisant Github Desktop
 - Creation d'un projet openshift sous eclipse :
