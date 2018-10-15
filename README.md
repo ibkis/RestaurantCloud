@@ -73,16 +73,28 @@ Pour executer le projet en local, vous telecharger le git [RestaurantCloud]() et
  ![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/clon3.PNG)
 
 # Deployement Sur Openshift
-[Projet Openshift](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet1.PNG)
-[Click sur retrieve](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
-[Login](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet2.PNG)
-[Click sur retrieve](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet3.PNG)
-[Click sur Workspace OC Sttings](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
-[Click sur Browws.. pour choisir l'executable openshift client telecharger ci-haut et apply and close](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet4.PNG)
-[Next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
-[Choisir le projet et l'environement de deployement et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet7.PNG)
-[Url du git(repertoir du git) et nom du projet](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet8.PNG)
-[Configuration et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet9.PNG)
-[Configuration du port et next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
-[Next](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
+### Projet Openshift
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet1.PNG)
+### Click sur retrieve
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+### Login
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet2.PNG)
+### Click sur retrieve
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet3.PNG)
+### Click sur Workspace OC Sttings
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+### Click sur Browws.. pour choisir l'executable openshift client telecharger ci-haut et apply and close
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet4.PNG)
+### Next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet6.PNG)
+### Choisir le projet et l'environement de deployement et next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet7.PNG)
+### Url du git(repertoir du git) et nom du projet
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet8.PNG)
+### Configuration et next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet9.PNG)
+### Configuration du port et next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
+### Next
+![Alt text](https://github.com/karimouseyni/RestaurantCloud/blob/master/img/projet10.PNG)
  
